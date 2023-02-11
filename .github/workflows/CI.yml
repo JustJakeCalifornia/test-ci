@@ -1,0 +1,13 @@
+name: CI
+  pull_request:
+    types: ['ready_for_review', 'opened', 'edited', 'reopened', 'synchronize']
+
+jobs:
+  commitlint:
+    name: Lint Commit Messages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: wagoid/commitlint-github-action@v5
