@@ -4,9 +4,7 @@
     "color": "EEEEEE"
   },
   "CHECKS": {
-    "regexp": "(fix|feat|build|chore|ci|docs|style|refactor|test)(\\(([^)]+)\\))?:\\s.*\\(#\\w{1,3}-\\d+\\)",
-    "regexpFlags": "i",
-    "ignoreLabels" : ["dont-check-PRs-with-this-label", "meta"]
+    "regexp": "(fix|feat|build|chore|ci|docs|style|refactor|test)(\\(([^)]+)\\))?:\\s.*\\(#\\w{1,3}-\\d+\\)"
   },
   "MESSAGES": {
     "success": "All OK",
