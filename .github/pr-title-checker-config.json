@@ -4,8 +4,7 @@
     "color": "EEEEEE"
   },
   "CHECKS": {
-    "prefixes": ["fix: ", "feat: ", "build: ", "chore: ", "ci: ", "docs: ", "style: ", "refactor: ", "test: "],
-    "regexp": "(fix|feat|build|chore|ci|docs|style|refactor|test)(\(([^)]+)\))?:\s.*\s\(#\w{1,3}-\d+\)",
+    "regexp": "(fix|feat|build|chore|ci|docs|style|refactor|test)(\\(([^)]+)\\))?:\\s.*\\(#\\w{1,3}-\\d+\\)",
     "regexpFlags": "i",
     "ignoreLabels" : ["dont-check-PRs-with-this-label", "meta"]
   },
